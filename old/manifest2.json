@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Tab and Extension Activity Analyzer",
+  "version": "1.0",
+  "description": "Analyzes activity of tabs and extensions in the current window",
+  "permissions": [
+    "tabs",
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Analyze Tab and Extension Activity"
+  }
+}

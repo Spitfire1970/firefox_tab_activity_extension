@@ -1,0 +1,64 @@
+body {
+  width: 300px;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  margin: 0;
+  padding: 15px;
+  padding-bottom: 7.5px;
+}
+h3 {
+  color: white;
+  margin-top: 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  background-color: #cc3720e2;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+}
+.favicon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+.tab-title {
+  flex-grow: 1;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.tab-percentage {
+  font-weight: bold;
+  color: #4ccfae;
+}
+button {
+  background-color: #4ccfae;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+button:hover {
+  background-color: #23d7aa;
+}
+
+.info {
+	font-size: 0.8em;
+	color: #706f6f;
+	padding: 0rem;
+}
+
+#site {
+  color: rgb(191, 113, 191)
+}
