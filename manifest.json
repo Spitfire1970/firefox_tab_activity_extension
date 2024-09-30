@@ -4,8 +4,8 @@
   "version": "3.0",
   "description": "Analyzes the activity of tabs and extensions in the current window based on number of web requests sent out and gives a percentage wise breakdown.",
   "icons": {
-    "96": "icon.png",
-    "48": "icon.png"
+    "96": "icon.jpg",
+    "48": "icon2.jpg"
   },
   "permissions": [
     "tabs",
