@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Tab & Extension Activity Analyzer",
-  "version": "2.0",
+  "version": "3.0",
   "description": "Analyzes the activity of tabs and extensions in the current window based on number of web requests sent out and gives a percentage wise breakdown.",
   "icons": {
     "96": "icon.png",
